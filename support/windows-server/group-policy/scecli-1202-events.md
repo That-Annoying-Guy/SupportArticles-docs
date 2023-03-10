@@ -54,7 +54,7 @@ To troubleshoot this issue, follow these steps:
 2. Refresh the policy settings to reproduce the failure. To refresh the policy settings, type the following command at the command prompt, and then press ENTER:
 
     ```console
-    secedit /refreshpolicy machine_policy /enforce
+    gpupdate /sync /boot
     ```
 
     This command creates a file that is named *Winlogon.log* in the `%SYSTEMROOT%\Security\Logs` folder.
@@ -142,7 +142,7 @@ To troubleshoot this issue, follow these steps:
 2. Refresh the policy settings to reproduce the failure. To refresh the policy settings, type the following command at the command prompt, and then press ENTER:
 
     ```console
-    secedit /refreshpolicy machine_policy /enforce
+    gpupdate /sync /boot
     ```
 
     This command creates a file that's named *Winlogon.log* in the `%SYSTEMROOT%\Security\Logs` folder.
@@ -227,7 +227,7 @@ To troubleshoot this issue, follow these steps:
 2. Refresh the policy settings to reproduce the failure. To refresh the policy settings, type the following command at the command prompt, and then press ENTER:
 
     ```console
-    secedit /refreshpolicy machine_policy /enforce
+    gpupdate /sync /boot
     ```
 
     This command creates a file that is named *Winlogon.log* in the `%SYSTEMROOT%\Security\Logs` folder.
@@ -305,7 +305,7 @@ The 0x4b8 error is generic and can be caused by many different problems. To trou
 2. Refresh the policy settings to reproduce the failure. To refresh the policy settings, type the following command at the command prompt, and then press ENTER:
 
     ```console
-    secedit /refreshpolicy machine_policy /enforce
+    gpupdate /sync /boot
     ```
 
     This command creates a file that is named Winlogon.log in the `%SYSTEMROOT%\Security\Logs` folder.
